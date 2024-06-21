@@ -2,6 +2,7 @@
 @import "variables";
 @import "mixin";
 @import "mobile";
+@import "contact";
 
 p{
     margin-bottom: 0;
@@ -14,13 +15,6 @@ p{
 
 .page{
     background-color: #ffdcba;
-}
-
-.ulmod{
-    background-color: #ffdcba;
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .textmod{
@@ -57,4 +51,20 @@ p{
     max-height: 400px;
     object-fit: none;
     width: 100%;
+}
+
+.social_container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    a{
+        margin: 0 10px;
+    }
 }
