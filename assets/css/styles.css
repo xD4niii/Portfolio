@@ -90,6 +90,10 @@ p {
   margin-bottom: 0;
 }
 
+.logo_mod {
+  max-width: 90%;
+}
+
 .row {
   padding: 2rem;
 }
@@ -98,14 +102,14 @@ p {
   background-color: #ffdcba;
 }
 
-.textmod {
+.text_mod {
   text-decoration: none;
   font-family: "Gill Sans", sans-serif;
   font-size: 1.2rem;
   font-style: oblique;
 }
 
-.linkmod {
+.link_mod {
   text-decoration: none;
   font-size: 1.2rem;
   font-style: oblique;
@@ -128,7 +132,7 @@ p {
   color: black;
 }
 
-.carousel-image {
+.carousel_image {
   max-height: 400px;
   object-fit: none;
   width: 100%;
