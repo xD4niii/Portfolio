@@ -51,6 +51,10 @@
 #contact-form #mail {
   background-color: #ffdcba;
 }
+#contact-form #message {
+  border-color: black;
+  border-width: 2px;
+}
 #contact-form textarea {
   width: 50%;
   margin-left: 25%;
@@ -63,9 +67,11 @@
 }
 #contact-form textarea:focus-within {
   outline: none;
+  border-color: black;
   border-width: 3px;
 }
 #contact-form button {
+  border-color: black;
   border-radius: 20px;
   background-color: #ffdcba;
   font-size: 16px;
