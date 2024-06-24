@@ -150,4 +150,11 @@ p {
 }
 .social_links a {
   margin: 0 10px;
+}
+
+.profile-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 3px solid black;
 }/*# sourceMappingURL=styles.css.map */
