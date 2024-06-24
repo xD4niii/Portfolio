@@ -60,12 +60,15 @@
   cursor: pointer;
 }
 
-p {
-  margin-bottom: 0;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .logo_mod {
-  max-width: 90%;
+  margin-top: 4px;
+  max-width: 80%;
 }
 
 .row {
@@ -111,19 +114,9 @@ p {
   width: 100%;
 }
 
-.social_container {
+.contact_me_container {
   text-align: center;
-  margin-bottom: 20px;
-}
-
-.social_links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-.social_links a {
-  margin: 0 10px;
+  margin: 40px 40px;
 }
 
 .list-group-item {
