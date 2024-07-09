@@ -108,6 +108,32 @@
   color: black;
 }
 
+@keyframes skill-anim {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.skills_container {
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  background: #ffdcba;
+}
+.skills_container .skills {
+  display: flex;
+  white-space: nowrap;
+  animation: skill-anim 30s linear infinite reverse;
+}
+.skills_container .skills .skill {
+  padding: 0 30px;
+  display: inline-block;
+  text-align: center;
+  white-space: normal;
+}
+
 .carousel_image {
   max-height: 400px;
   object-fit: none;
