@@ -70,7 +70,8 @@
     .skills{
         display: flex;
         white-space: nowrap;
-        animation: skill-anim 30s linear infinite reverse;
+        animation: skill-anim 15s linear infinite reverse;
+        animation-delay: -20s;
 
         .skill{
             padding: 0 30px;
