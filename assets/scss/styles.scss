@@ -51,6 +51,39 @@
     }
 }
 
+@keyframes skill-anim {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.skills_container {
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    background: #ffdcba;
+
+    .skills{
+        display: flex;
+        white-space: nowrap;
+        animation: skill-anim 15s linear infinite reverse;
+        animation-delay: -20s;
+
+        .skill{
+            padding: 0 30px;
+            display: inline-block;
+            text-align: center;
+            white-space: normal;
+        }
+
+
+    }
+  }
+
 .carousel_image{
     max-height: 400px;
     object-fit: none;
@@ -60,6 +93,14 @@
 .contact_me_container{
     text-align: center;
     margin: 40px 40px;
+}
+
+.foot_mod{
+    :hover{
+        padding: 6px;
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .list-group-item {
